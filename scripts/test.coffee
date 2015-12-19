@@ -60,8 +60,8 @@ module.exports = (robot) ->
       return
     res.send "Hey, want to hear the most annoying sound in the world?"
       annoyIntervalId = setInterval () ->
-      res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
-    , 1000
+        res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
+      , 1000
   #
   # robot.respond /unannoy me/, (res) ->
   #   if annoyIntervalId
